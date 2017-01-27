@@ -1,9 +1,3 @@
-/******************************************************
- * @package Pen Framework
- * @author pencms team
- * @copyright	Copyright (C) 2016 www.pencms.com. All rights reserved.
- * @license		MIT
-*******************************************************/
 {
     "name": "vdhoangson/pen-framework",
     "description": "Core Penguin CMS for Laravel",
