@@ -1,0 +1,33 @@
+/******************************************************
+ * @package Pen Framework
+ * @author pencms team
+ * @copyright	Copyright (C) 2016 www.pencms.com. All rights reserved.
+ * @license		MIT
+*******************************************************/
+{
+    "name": "vdhoangson/pen-framework",
+    "description": "Core Penguin CMS for Laravel",
+    "license": "MIT",
+    "keywords": ["penguin", "vdhoangson", "laravel", "pencms"],
+    "authors": [
+        {
+            "name": "Son Vo Dang Hoang",
+            "email": "vdhoangson@gmail.com"
+        }
+    ],
+    "require": {
+    	"php": ">=5.5.9",
+    	"laravel/framework": "~5.3"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+    	"classmap": [
+			],
+	    "psr-4": {
+	      "PenFramework\\": "src/"
+	    }
+    },
+    "minimum-stability": "dev"
+}
