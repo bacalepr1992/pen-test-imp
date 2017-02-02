@@ -40,7 +40,6 @@ class PenFrameworkServiceProvider extends ServiceProvider {
 
     /* Register Provider */
     $this->app->register('PenFramework\Providers\PenLocalisationServiceProvider');
-    $this->app->register('PenFramework\Providers\PenModuleServiceProvider');
   }
 
   private function handleMigrations() {
